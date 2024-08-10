@@ -1,0 +1,28 @@
+.app-container {
+  text-align: center;
+}
+
+.app-nav {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.app-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.app-nav a:hover {
+  text-decoration: underline;
+}
