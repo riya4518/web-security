@@ -1,0 +1,46 @@
+/* stored-xss.css */
+
+.stored-xss-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .stored-xss-h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stored-xss-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .stored-xss-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stored-xss-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stored-xss-p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .stored-xss-output {
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 40px;
+    margin-top: 10px;
+  }
+  

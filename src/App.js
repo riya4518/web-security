@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DomXss from './components/DomXss';
+import StoredXss from './components/StoredXss';
+import ReflectedXss from './components/ReflectedXss';
+import Home from './components/home'; // Ensure the path and filename are correct
+import './App.css'; // Ensure this path is correct
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app-container">
+        <main className="app-main">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dom-xss" element={<DomXss />} />
+            <Route path="/stored-xss" element={<StoredXss />} />
+            <Route path="/reflected-xss" element={<ReflectedXss />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 

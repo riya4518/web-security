@@ -1,0 +1,44 @@
+/* dom-xss.css */
+
+.dom-xss-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .dom-xss-h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .dom-xss-p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .dom-xss-input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  .dom-xss-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dom-xss-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dom-xss-output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
